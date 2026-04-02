@@ -1,0 +1,6 @@
+UPDATE questions
+SET audio_url = REPLACE(
+    REPLACE(media_url, '/GAMBAR/', '/AUDIO/'),
+    '.webp', '.mp3'
+)
+WHERE media_url LIKE '%/SIM-A/MODUL-4/GAMBAR/%';

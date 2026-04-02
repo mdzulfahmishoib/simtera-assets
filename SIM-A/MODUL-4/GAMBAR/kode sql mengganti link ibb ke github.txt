@@ -1,0 +1,30 @@
+UPDATE questions
+SET media_url = CASE 
+    WHEN media_url = 'https://i.ibb.co.com/Tq788c1m/1.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/1.webp'
+    WHEN media_url = 'https://i.ibb.co.com/SXs0NQmC/2.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/2.webp'
+    WHEN media_url = 'https://i.ibb.co.com/wZqKPjZL/3.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/3.webp'
+    WHEN media_url = 'https://i.ibb.co.com/5gQYBNLX/4.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/4.webp'
+    WHEN media_url = 'https://i.ibb.co.com/nMLycNhW/5.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/5.webp'
+    WHEN media_url = 'https://i.ibb.co.com/fVQbnVSP/6.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/6.webp'
+    WHEN media_url = 'https://i.ibb.co.com/nty1dFs/7.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/7.webp'
+    WHEN media_url = 'https://i.ibb.co.com/6RDzKXMR/8.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/8.webp'
+    WHEN media_url = 'https://i.ibb.co.com/tp3473Mg/9.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/9.webp'
+    WHEN media_url = 'https://i.ibb.co.com/Qv4cSQLP/10.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/10.webp'
+    WHEN media_url = 'https://i.ibb.co.com/4RLsVC67/11.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/11.webp'
+    WHEN media_url = 'https://i.ibb.co.com/KxqxZV6D/12.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/12.webp'
+    WHEN media_url = 'https://i.ibb.co.com/fzsY9fX9/13.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/13.webp'
+    WHEN media_url = 'https://i.ibb.co.com/wh8XDSs7/14.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/14.webp'
+    WHEN media_url = 'https://i.ibb.co.com/prGJcvJ9/15.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/15.webp'
+    WHEN media_url = 'https://i.ibb.co.com/d4HthrXg/16.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/16.webp'
+    WHEN media_url = 'https://i.ibb.co.com/NnrZXPF0/17.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/17.webp'
+    WHEN media_url = 'https://i.ibb.co.com/0RMjr2fW/18.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/18.webp'
+    WHEN media_url = 'https://i.ibb.co.com/kgCWmnwk/19.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/19.webp'
+    WHEN media_url = 'https://i.ibb.co.com/Txr5SBrT/20.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/20.webp'
+    WHEN media_url = 'https://i.ibb.co.com/5gL51PpP/21.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/21.webp'
+    WHEN media_url = 'https://i.ibb.co.com/GzMmbQk/22.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/22.webp'
+    WHEN media_url = 'https://i.ibb.co.com/8nLKgWFc/23.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/23.webp'
+    WHEN media_url = 'https://i.ibb.co.com/3ygXfvrg/24.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/24.webp'
+    WHEN media_url = 'https://i.ibb.co.com/NgzqDrC9/25.webp' THEN 'https://raw.githubusercontent.com/mdzulfahmishoib/simtera-assets/refs/heads/main/SIM-A/MODUL-4/GAMBAR/25.webp'
+    ELSE media_url 
+END
+WHERE media_url LIKE 'https://i.ibb.co.com%';
